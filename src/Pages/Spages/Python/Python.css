@@ -1,0 +1,186 @@
+.python-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.python-con h1{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 20px;
+    color: var(--color);
+}
+.python-1{
+    width: 85%;
+    margin-top: 20px;
+}
+.python-1 h2{
+    font-weight: 700;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.python-1 h2 span{
+    color: var(--color);
+}
+.python-1 p,.dj-left p{
+    line-height: 30px;
+}
+.django h2{
+    color: var(--color);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.django h2 span{
+    color: black;
+}
+.python-2{
+    width: 85%;
+    display: flex;
+   
+}
+.django{
+    width: 100%;
+    border: 1px solid var(--color);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+.dj-m{
+    width: 100%;
+    display: flex;
+}
+.dj-m2{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.dj-left{
+    width: 60%;
+    padding-right: 70px;
+    display: flex;
+}
+.dj-left2{
+    width: 60%;
+    padding-left: 70px;
+    display: flex;
+    line-height: 30px;
+}
+.python22{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right,#91c8f0,white);
+    padding: 50px 0px;
+    gap: 30px;
+    margin: 20px 0;
+}
+.flask{
+    margin-left: 500px;
+}
+.dj-right::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 85%;
+    background-color: var(--color);
+    position: absolute;
+    left: -30px;
+}
+.dj-right2::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 85%;
+    background-color: var(--color);
+    position: absolute;
+    right: -30px;
+}
+.dj-right,.dj-right2{
+    position: relative;
+    width: 39%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+}
+.dj-right2 img{
+    width: 60%;
+    height: 60%;
+    
+}
+.python-3{
+    width: 85%;
+}
+.python-3 h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--color);
+    font-weight: 700;
+}
+.python-3 h2 span{
+    color: black;
+
+}
+.python-4{
+    width: 85%;
+    margin-top: 30px;
+}
+.python-4 h2{
+    font-weight: 700;
+    color: var(--color);
+    margin-bottom: 15px;
+}
+.python-4 h2 span{
+    color: black;
+}
+.python-4 p span{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.python-4 p{
+    position: relative;
+    padding-left: 30px;
+    width: 90%;
+}
+.python-4 p::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--color);
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+@media (max-width:600px){
+    .python-con h1{
+        font-size: 30px;
+    }
+    
+    .dj-left,.dj-left2{
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0;
+        padding: 0;
+        text-align: justify;
+    }
+    .dj-right,.dj-right2{
+        width: 100%;
+        display: none;
+    }
+    .dj-right2::after,.dj-right::before{
+        display: none;
+    }
+    .dj-right2 img{
+       width: 100px;
+       height: 100px;
+    }
+    .flask{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,97 @@
+.dot-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dot-con h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 40px 0px;
+    background: var(--bg2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dot2sr img{
+    height: 100%;
+    width: 100%;
+}
+.dot-1{
+    width: 85%;
+}
+.dot-con h2{
+    font-weight: 700;
+    color: var(--color);
+}
+.dot-con h2 span{
+    color: black;
+}
+.dot-2{
+    width: 85%;
+    margin-top: 25px;
+}
+.dot-1s{
+    width: 100%;
+    display: flex;
+}
+.dot1sl{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dotsr{
+    width: 70%;
+    
+}
+.dot2s{
+    width: 100%;
+    display: flex;
+}
+.dot2sl{
+    width: 60%;
+}
+.dot2sr{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot-3{
+    width: 85%;
+    margin-top: 25px;
+}
+.dot-3 p{
+    position: relative;
+    padding-left: 50px;
+}
+.dot-3 p::before{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color);
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 50%;
+}
+@media (max-width:600px){
+
+    .dot-con h1{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .dot-1s{
+        flex-direction: column-reverse;
+    }
+    .dot1sl,.dotsr{
+        width: 100%;
+    }
+    .dot2s{
+        flex-direction: column;
+    }
+    .dot2sl,.dot2sr{
+        width: 100%;
+    }
+}

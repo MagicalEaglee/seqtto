@@ -1,0 +1,244 @@
+.header-web{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    
+}
+.header-web h1{
+    font-weight: 800;
+}
+.about-web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.about-web p{
+    font-size: 1rem;
+    width: 85%;
+}
+.web-options{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin-bottom: 50px;
+}
+.list-web{
+    display: flex;
+    gap: 20px;
+}
+.web-l{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.web-l h2{
+    font-size: 3rem;
+}
+.web-l h2:nth-child(1){
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.web-l:hover{
+    cursor: pointer;
+}
+.web-a.active .web-l h2{
+    color: var(--color);
+}
+.web-l:hover h2{
+    color: var(--color);
+}
+.web-l h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.java-con,.node-con,.py-con,.cus-con{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.java-con h1,.node-con h1,.py-con h1,.cus-con h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color);
+    margin-bottom: 30px;
+}
+.node-con h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color);
+    margin-bottom: 30px;
+}
+.java-con h1 span,.node-con h1 span,.py-con h1 span,.cus-con h1 span{
+    color: black;
+}
+.java-cen,.node-cen,.py-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.java-cen p,.py-cen p,.cus-con p{
+    text-align: start;
+}
+.java1,.node1,.py-cen,.py1{
+    width:85%;
+}
+.java1 p,.node1 p,.py1 p{
+    font-size: 1rem;
+    text-align: start;
+}
+.java-cen h1{
+    width: 85%;
+    text-align: start;
+    margin-top: 40px;
+}
+.java-cen h1 span{
+    color: black;
+}
+.java-ex{
+    width: 85%;
+    display: flex;
+    margin-bottom: 40px;
+}
+.ex-points p,.node-point p,.pyl-point p,.py-point p{
+    position: relative;
+    padding-left: 15px;
+}
+.ex-points p::before,.node-point p::before,.py-point p::before,.pyl-point p::before{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    background-color: var(--color);
+}
+.ex-left{
+    width: 60%;
+}
+.ex-right{
+    width: 40%;
+}
+.jImage{
+    height: 400px;
+}
+.jImage img{
+    width: 100%;
+    height: 100%;
+}
+.java-cen button,.node-con button,.py-con button{
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    
+}
+.java-cen button a,.node-con button a,.py-con button a{
+    color: var(--color);
+    font-size: 1.3rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 800;
+    transition: all 0.7s ease-in-out;
+}
+.java-cen button:hover a,.node-con button:hover a,.py-con button:hover a{
+    gap: 20px;
+}
+.nodec1{
+    text-align: start;
+}
+.nodec1{
+    margin-top: 40px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.nodec1-left{
+    width: 47%;
+}
+.nodec1-left h3,.py-right h3,.nodec1-right h3,.nodec2-right h3,.py-left h3{
+    font-weight: 600;
+}
+.nodec1-right{
+    width: 47%;
+}
+.nodec2-right{
+    width: 47%;
+}
+.py-cen{
+    width: 85%;
+    display: flex;
+}
+.py-left{
+    width: 40%;
+    text-align: start;
+}
+.py-right{
+    width: 55%;
+    text-align: start;
+}
+.cus-con{
+    width: 85%;
+}
+.ccus{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+@media (max-width:600px){
+    .header-web h1{
+        font-size: 30px;
+    }
+    .web-options{
+        width: 100%;
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+    .web-l{
+        width: 150px;
+        height: 120px;
+    }
+    .web-a .web-l h2{
+        font-size: 2.5rem;
+    }
+    .list-web{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .java-ex{
+        flex-direction: column;
+    }
+    .ex-left{
+        width: 100%;
+    }
+    .ex-right{
+        width: 100%;
+    }
+    .nodec1,.py-cen{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nodec1-left, .nodec1-right,.nodec2-right,.py-right,.py-left{
+        width: 100%;
+    }
+}

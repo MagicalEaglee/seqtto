@@ -1,0 +1,46 @@
+.t-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t-con h1{
+    font-size: 40px;
+    background: var(--bg2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    margin:20px 0;
+}
+.t-1{
+    width: 85%;
+}
+.t-con h2{
+    font-weight: 700;
+    color: var(--color);
+}
+.t-con h2 span{
+    color: black;
+}
+.t-2{
+    width: 85%;
+}
+.t-22 p{
+    position: relative;
+    padding-left: 30px;
+}
+.t-22 p span{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.t-22 p::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-color: var(--color);
+    border-radius: 50%;
+}

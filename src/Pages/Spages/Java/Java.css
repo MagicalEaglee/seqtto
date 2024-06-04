@@ -1,0 +1,134 @@
+:root{
+    --bg:linear-gradient(to right,#91c8f0,white);
+}
+.java-con{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.java-con h1{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.java-con h1 span{
+    color: black;
+}
+.java-1,.java-2,.java-3{
+    width: 85%;
+    text-align: start;
+}
+.j2-left,.j3-left{
+    width: 30%;
+}
+.j2-right h3,.j3-right h3{
+    font-weight: 700;
+}
+.j2-right,.j3-right{
+    width: 70%;
+    
+}
+.java-2{
+    display: flex;
+    margin-top: 50px;
+
+}
+.java-3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.java-4{
+    margin-top: 50px;
+    width: 85%;
+    text-align: start;
+}
+.java-4 h2,.j6-t h2{
+    font-weight: 800;
+    color: var(--color);
+}
+.java-4 h2 span ,.j6-t h2 span{
+    color: black;
+}
+.java-5{
+    width: 85%;
+}
+.j5-left{
+    width:49%;
+    padding: 30px 30px 0px 30px;
+    border: 1px solid var(--color);
+}
+.j5-left{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+.j5-left h3{
+    font-weight: 700;
+}
+.j51 .j5-left:nth-child(2),.j52 .j5-left:nth-child(1){
+    background-color: #59a0d3;
+    color: white;
+    padding-bottom: 10px;
+}
+.j51,.j52{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+}
+.java-6{
+    width: 85%;
+    background: linear-gradient(to right,#91c8f0,white);
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.j6-t{
+    background-color: white;
+    text-align: start;
+    padding: 20px;
+    border-radius: 8px;
+    border:  1px solid var(--color);
+}
+.j6-t h2{
+
+}
+.j2-left img,.j3-left img{
+    width: 80%;
+    height: 100%;
+}
+
+@media (max-width:600px){
+    .java-con h1{
+        font-size: 30px;
+    }
+    .java-2,.java-3{
+        flex-direction: column;
+    }
+    .j2-left,.j2-right,.j3-left,.j3-right{
+        width: 100%;
+    }
+    .j51,.j52{
+        flex-direction: column;
+    }
+    .j5-left{
+        width: 100%;
+    }
+    .java-6{
+        padding: 0;
+        width: 100%;
+    }
+    .java-5{
+        width: 100%;
+    }
+    .j6-t{
+        width: 100%;
+    }
+}

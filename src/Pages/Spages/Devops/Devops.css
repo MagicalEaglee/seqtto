@@ -1,0 +1,68 @@
+.dev-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.dev-con h1{
+    font-size: 40px;
+    background: var(--bg2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    margin: 40px 0px;
+}
+.dev-con h2{
+    font-weight: 700;
+    color: var(--color);
+}
+.dev-con h2 span{
+    color: black;
+}
+.dev-1,.dev-2{
+    width: 85%;
+}
+.dev-2{
+    border: 1px solid var(--color);
+    background-color: white;
+    padding: 30px;
+}
+.dev22{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--bg);
+    padding: 30px 0;
+}
+.dev2 h3{
+    font-weight: 700;
+}
+.dev2 p,.dev-4 p{
+    padding-left: 30px;
+    position: relative;
+}
+.dev2 p::before,.dev-4 p::before{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color);
+    border-radius: 50%;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+}
+.dev-3{
+    margin-top: 25px;
+}
+.dev-4{
+    width: 85%;
+    margin-top: 40px;
+}
+.dev-4 p span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+

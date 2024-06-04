@@ -1,0 +1,82 @@
+.fruad-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fruad-con h1{
+    font-size: 40px;
+    font-weight: 800;
+    background: var(--bg2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0;
+}
+.fr-1,.fr-2{
+    width: 85%;
+}
+.fruad-con h2{
+    color: var(--color);
+    font-weight: 700;
+    margin-top: 20px;
+}
+.fr-3{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frkk{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.fr-k{
+    justify-content: center;
+    width: 80%;
+    display: flex;
+}
+.frk-l{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.frk-r{
+    width: 60%;
+}
+.frk-r h3{
+    font-weight: 700;
+}
+.fr-4{
+    width: 85%;
+}
+.fr-5{
+    width: 85%;
+    margin-top: 20px;
+}
+.fr-5 p{
+    position: relative;
+    padding-left: 30px;
+}
+.fr-5 p span{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.fr-5 p::before{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--color);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.fr-6{
+    width: 85%;
+}

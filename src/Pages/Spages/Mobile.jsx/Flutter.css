@@ -1,0 +1,306 @@
+.fluter-con,.andro-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fluter-con h1{
+    text-align: center;
+}
+.fl-1{
+    width: 85%;
+}
+.fluter-con h2{
+    font-weight: 700;
+    color: var(--color);
+}
+.fluter-con h2 span{
+    color: black;
+}
+.fl-2{
+    width: 85%;
+    margin-top: 30px;
+}
+.fl-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+.fl-s h3{
+    font-weight: 700;
+}
+.fl-s{
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* IOSSSSS */
+
+
+
+.ios-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ios-con h1{
+    text-align: center;
+}
+.ios-1{
+    width: 85%;
+}
+.ios-2{
+    width: 85%;
+    margin-top: 30px;
+}
+.fl-list1 .fl-s{
+    border: 1px solid var(--color);
+}
+.fl-list1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+.ios-3{
+    margin-top: 30px;
+}
+.andro-1{
+    width: 85%;
+}
+.andro-2{
+    width: 85%;
+    margin-top: 30px;
+}
+.andro22{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+.andro2-s{
+    width: 40%;
+    border: 1px solid var(--color);
+    padding: 30px;
+}
+.andro2-s:hover h3{
+    color: var(--color);
+}
+.andro2-s h3{
+    font-weight: 700;
+}
+.andro-4{
+    width: 85%;
+    margin-top: 30px;
+}
+
+.andro44 h2{
+    text-align: center;
+}
+.andro4-s{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.cross-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cross-con h2{
+    font-weight: 700;
+    color: var(--color);
+}
+.cross-con h2 span{
+    color: black;
+}
+
+.cross-1{
+    width: 85%;
+}
+.cross-2{
+    width: 85%;
+}
+.cross-ad p span,.pwa-3 p span,.rea-3 p span,.xama-3 p span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+.cross-ad p,.pwa-3 p,.rea-3 p,.xama-3 p{
+    position: relative;
+    padding-left: 30px;
+}
+.cross-ad p::before,.pwa-3 p::before,.rea-3 p::before,.xama-3 p::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color);
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.mw-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mw-1{
+    width: 85%;
+}
+.mw-1 h2{
+    color: var(--color);
+    font-weight: 700;
+}
+.mw-1 h2 span{
+    color: black;
+}
+.mw1-s,.mw1-s2{
+    width: 100%;
+    display: flex;
+}
+.mw-sl{
+    width: 40%;
+}
+.mw-sr{
+    width: 60%;
+}
+.mw1-s2{
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+.hybr-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hyber-1{
+    width: 85%;
+}
+.hyber-s{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.hyber-l{
+    width: 60%;
+}
+.hyber-r{
+    width: 40%;
+}
+.hyber-2{
+    width: 85%;
+    margin-top: 30px;
+}
+.hyber-3{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+}
+.hyb3-s{
+    width: 95%;
+    border: 1px solid var(--color);
+    padding: 20px;
+    
+}
+.hyb3-s h3{
+    font-weight: 700;
+}
+
+.pwa-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pwa-1{
+    width: 85%;
+}
+.pwa-2{
+    width: 85%;
+    margin-top: 20px;
+}
+.pwa-3{
+    width: 85%;
+}
+.rea-con,.xama-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rea-con>p{
+    width: 85%;
+}
+.rea-1,.rea-3{
+    width: 85%;
+}
+.rea4{
+    width: 100%;
+    background: var(--bg);
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.rea-4{
+    border: 1px solid var(--color);
+    padding: 20px;
+    width: 85%;
+    background-color: white;
+}
+.xama-1,.xama-2,.xama-3{
+    width: 85%;
+}
+@media (max-width:600px){
+    .andro22{
+        flex-direction: column;
+    }
+    .andro2-s{
+        width: 100%;
+    }
+    .seoCol li{
+        font-size: 1.2rem;
+        width: 350px;
+    }
+    .mw1-s{
+        width: 100%;
+        flex-direction: column;
+    }
+    .mw-sr{
+        width: 100%;
+    }
+    .mw-sl{
+        display: none;
+    }
+    .hyber-s{
+        flex-direction: column-reverse;
+    }
+    .hyber-l,.hyber-r{
+        width: 100%;
+    }
+    .hyber-3{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+    .fl-list{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .fl-s{
+        width: 100%;
+    }
+    .xama-2{
+        width: 100%;
+    }
+}

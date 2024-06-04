@@ -1,0 +1,143 @@
+.mobile-con{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile-con h1{
+    font-size: 40px;
+    font-weight: 800;
+    background: var(--bg2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 40px 0px;
+}
+.mobile-con h2{
+    font-weight: 700;
+    color:var(--color);
+}
+.mobile-con h2 span{
+    color: black;
+}
+.mobile-1{
+    width: 85%;
+}
+.mobile-1 h2{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-2{
+    width: 85%;
+    margin-top: 40px;
+}
+
+.mobile-2 h2{
+    text-align: center;
+}
+.mobile-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mobou{
+    width: 100%;
+    margin-top: -60px;
+}
+.mobou h2{
+    font-weight: 700;
+    color: var(--color);
+}
+.mobou h2 span{
+    color: black;
+}
+.mob1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.mobile-l{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-l h5{
+    text-align: center;
+    font-weight: 700;
+}
+.mobile-l .m-image{
+    width: 80px;
+    height: 80px;
+}
+.mobile-l .m-image img{
+    width: 100%;
+    height: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySwiper-mobi .swiper-slide,.mySwiper-mobi2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color);
+  }
+  .mySwiper-mobi2{
+    display: none;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mySwiper-mobi{
+    height: 15vh;
+    margin-top: 50px;
+    width: 80%;
+    padding: 10px 30px;
+  }
+  .mySwiper-mobi h5{
+    font-weight: 700;
+  }
+  .mySwiper-mobi a.active{
+    color: var(--color);
+  }
+ .mySwiper-mobi .swiper-button-next{
+    padding-left: 80px;
+  }
+ .mySwiper-mobi .swiper-button-prev{
+    padding-right: 80px;
+  }
+
+@media (max-width:600px){
+    .mySwiper-mobi{
+        display: none;
+    }
+    .mySwiper-mobi2{
+        margin-top: 40px;
+        display: block;
+        height: 120px;
+    }
+    .mySwiper-mobi2 a.active{
+        color: var(--color);
+    }
+    .mySwiper-mobi2 .swiper-slide a{
+        font-size: 1.3rem;
+    }
+    .mobile-con h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
